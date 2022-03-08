@@ -124,13 +124,3 @@ curl -X 'POST' \
 
 <!-- Citation -->
 <hr>
-To cite this course, please use:
-
-```bibtex
-@misc{madewithml,
-    author       = {Goku Mohandas},
-    title        = {Made With ML MLOps Course},
-    howpublished = {\url{https://madewithml.com/}},
-    year         = {2021}
-}
-```
