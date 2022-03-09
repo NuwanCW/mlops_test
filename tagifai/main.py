@@ -69,7 +69,7 @@ def compute_features(
 def optimize(
     params_fp: Path = Path(config.CONFIG_DIR, "params.json"),
     study_name: Optional[str] = "optimization",
-    num_trials: int = 100,
+    num_trials: int = 10,
 ) -> None:
     """Optimize a subset of hyperparameters towards an objective.
 
