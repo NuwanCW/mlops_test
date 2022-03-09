@@ -1,0 +1,30 @@
+
+# Configuration
+theme:
+  name: material
+
+# Extensions
+markdown_extensions:
+  - admonition # alerts
+  - codehilite
+  - pymdownx.highlight
+
+# Plugins
+plugins:
+  - search
+  - mkdocstrings
+
+# Page tree
+nav:
+  - Home:
+      - TagIfAI: index.md
+  - Getting started: getting_started.md
+  - Operations: tagifai/main.md
+  - Configurations: config/config.md
+  - Reference:
+    - Data: tagifai/data.md
+    - Eval: tagifai/eval.md
+    - Models: tagifai/models.md
+    - Training: tagifai/train.md
+    - Inference: tagifai/predict.md
+    - Utilities: tagifai/utils.md

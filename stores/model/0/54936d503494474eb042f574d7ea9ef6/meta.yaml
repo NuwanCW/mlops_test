@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user1/MLops/mlops_all/docker/stores/model/0/54936d503494474eb042f574d7ea9ef6/artifacts
+end_time: 1646736373783
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 54936d503494474eb042f574d7ea9ef6
+run_uuid: 54936d503494474eb042f574d7ea9ef6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1646736373770
+status: 3
+tags: []
+user_id: user1
