@@ -1,0 +1,1870 @@
+INFO 2022-03-08 21:41:05,941 [main.py:load_data:46]
+✅ Loaded data!
+
+INFO 2022-03-08 21:41:22,479 [main.py:compute_features:65]
+✅ Computed features!
+
+INFO 2022-03-08 21:41:40,282 [train.py:objective:357]
+
+Trial 0:
+
+INFO 2022-03-08 21:41:40,285 [train.py:objective:358]
+{
+  "embedding_dim": 137,
+  "num_filters": 144,
+  "hidden_dim": 278,
+  "dropout_p": 0.566426085484123,
+  "lr": 0.0004946731607408693
+}
+
+INFO 2022-03-08 21:41:42,761 [train.py:train:297]
+Parameters: {
+  "seed": 1234,
+  "cuda": true,
+  "shuffle": true,
+  "subset": null,
+  "min_tag_freq": 30,
+  "lower": true,
+  "stem": false,
+  "train_size": 0.7,
+  "char_level": true,
+  "max_filter_size": 10,
+  "batch_size": 128,
+  "embedding_dim": 137,
+  "num_filters": 144,
+  "hidden_dim": 278,
+  "dropout_p": 0.566426085484123,
+  "lr": 0.0004946731607408693,
+  "num_epochs": 200,
+  "patience": 10,
+  "threshold": 0.32731616497039795,
+  "num_samples": 1444
+}
+
+INFO 2022-03-08 21:41:43,091 [train.py:train:184]
+Epoch: 1 | train_loss: 0.00558, val_loss: 0.00426, lr: 4.95E-04, _patience: 10
+
+INFO 2022-03-08 21:41:43,365 [train.py:train:184]
+Epoch: 2 | train_loss: 0.00457, val_loss: 0.00331, lr: 4.95E-04, _patience: 10
+
+INFO 2022-03-08 21:41:43,632 [train.py:train:184]
+Epoch: 3 | train_loss: 0.00363, val_loss: 0.00277, lr: 4.95E-04, _patience: 10
+
+INFO 2022-03-08 21:41:43,902 [train.py:train:184]
+Epoch: 4 | train_loss: 0.00317, val_loss: 0.00274, lr: 4.95E-04, _patience: 10
+
+INFO 2022-03-08 21:41:44,168 [train.py:train:184]
+Epoch: 5 | train_loss: 0.00296, val_loss: 0.00268, lr: 4.95E-04, _patience: 10
+
+INFO 2022-03-08 21:41:44,436 [train.py:train:184]
+Epoch: 6 | train_loss: 0.00279, val_loss: 0.00259, lr: 4.95E-04, _patience: 10
+
+INFO 2022-03-08 21:41:44,707 [train.py:train:184]
+Epoch: 7 | train_loss: 0.00263, val_loss: 0.00251, lr: 4.95E-04, _patience: 10
+
+INFO 2022-03-08 21:41:44,974 [train.py:train:184]
+Epoch: 8 | train_loss: 0.00242, val_loss: 0.00240, lr: 4.95E-04, _patience: 10
+
+INFO 2022-03-08 21:41:45,238 [train.py:train:184]
+Epoch: 9 | train_loss: 0.00228, val_loss: 0.00230, lr: 4.95E-04, _patience: 10
+
+INFO 2022-03-08 21:41:45,501 [train.py:train:184]
+Epoch: 10 | train_loss: 0.00209, val_loss: 0.00221, lr: 4.95E-04, _patience: 10
+
+INFO 2022-03-08 21:41:45,773 [train.py:train:184]
+Epoch: 11 | train_loss: 0.00193, val_loss: 0.00212, lr: 4.95E-04, _patience: 10
+
+INFO 2022-03-08 21:41:46,037 [train.py:train:184]
+Epoch: 12 | train_loss: 0.00183, val_loss: 0.00204, lr: 4.95E-04, _patience: 10
+
+INFO 2022-03-08 21:41:46,304 [train.py:train:184]
+Epoch: 13 | train_loss: 0.00165, val_loss: 0.00198, lr: 4.95E-04, _patience: 10
+
+INFO 2022-03-08 21:41:46,571 [train.py:train:184]
+Epoch: 14 | train_loss: 0.00152, val_loss: 0.00194, lr: 4.95E-04, _patience: 10
+
+INFO 2022-03-08 21:41:46,837 [train.py:train:184]
+Epoch: 15 | train_loss: 0.00139, val_loss: 0.00191, lr: 4.95E-04, _patience: 10
+
+INFO 2022-03-08 21:41:47,105 [train.py:train:184]
+Epoch: 16 | train_loss: 0.00134, val_loss: 0.00189, lr: 4.95E-04, _patience: 10
+
+INFO 2022-03-08 21:41:47,370 [train.py:train:184]
+Epoch: 17 | train_loss: 0.00124, val_loss: 0.00185, lr: 4.95E-04, _patience: 10
+
+INFO 2022-03-08 21:41:47,640 [train.py:train:184]
+Epoch: 18 | train_loss: 0.00115, val_loss: 0.00181, lr: 4.95E-04, _patience: 10
+
+INFO 2022-03-08 21:41:47,912 [train.py:train:184]
+Epoch: 19 | train_loss: 0.00107, val_loss: 0.00182, lr: 4.95E-04, _patience: 9
+
+INFO 2022-03-08 21:41:48,185 [train.py:train:184]
+Epoch: 20 | train_loss: 0.00098, val_loss: 0.00183, lr: 4.95E-04, _patience: 8
+
+INFO 2022-03-08 21:41:48,456 [train.py:train:184]
+Epoch: 21 | train_loss: 0.00090, val_loss: 0.00188, lr: 4.95E-04, _patience: 7
+
+INFO 2022-03-08 21:41:48,728 [train.py:train:184]
+Epoch: 22 | train_loss: 0.00087, val_loss: 0.00192, lr: 4.95E-04, _patience: 6
+
+INFO 2022-03-08 21:41:48,994 [train.py:train:184]
+Epoch: 23 | train_loss: 0.00079, val_loss: 0.00193, lr: 4.95E-04, _patience: 5
+
+INFO 2022-03-08 21:41:49,268 [train.py:train:184]
+Epoch: 24 | train_loss: 0.00074, val_loss: 0.00190, lr: 2.47E-05, _patience: 4
+
+INFO 2022-03-08 21:41:49,539 [train.py:train:184]
+Epoch: 25 | train_loss: 0.00072, val_loss: 0.00186, lr: 2.47E-05, _patience: 3
+
+INFO 2022-03-08 21:41:49,803 [train.py:train:184]
+Epoch: 26 | train_loss: 0.00069, val_loss: 0.00180, lr: 2.47E-05, _patience: 10
+
+INFO 2022-03-08 21:41:50,063 [train.py:train:184]
+Epoch: 27 | train_loss: 0.00069, val_loss: 0.00179, lr: 2.47E-05, _patience: 10
+
+INFO 2022-03-08 21:41:50,326 [train.py:train:184]
+Epoch: 28 | train_loss: 0.00067, val_loss: 0.00182, lr: 2.47E-05, _patience: 9
+
+INFO 2022-03-08 21:41:50,593 [train.py:train:184]
+Epoch: 29 | train_loss: 0.00066, val_loss: 0.00183, lr: 2.47E-05, _patience: 8
+
+INFO 2022-03-08 21:41:50,854 [train.py:train:184]
+Epoch: 30 | train_loss: 0.00065, val_loss: 0.00182, lr: 2.47E-05, _patience: 7
+
+INFO 2022-03-08 21:41:51,122 [train.py:train:184]
+Epoch: 31 | train_loss: 0.00064, val_loss: 0.00181, lr: 2.47E-05, _patience: 6
+
+INFO 2022-03-08 21:41:51,387 [train.py:train:184]
+Epoch: 32 | train_loss: 0.00063, val_loss: 0.00181, lr: 2.47E-05, _patience: 5
+
+INFO 2022-03-08 21:41:51,651 [train.py:train:184]
+Epoch: 33 | train_loss: 0.00063, val_loss: 0.00181, lr: 1.24E-06, _patience: 4
+
+INFO 2022-03-08 21:41:51,922 [train.py:train:184]
+Epoch: 34 | train_loss: 0.00064, val_loss: 0.00181, lr: 1.24E-06, _patience: 3
+
+INFO 2022-03-08 21:41:52,190 [train.py:train:184]
+Epoch: 35 | train_loss: 0.00063, val_loss: 0.00181, lr: 1.24E-06, _patience: 2
+
+INFO 2022-03-08 21:41:52,445 [train.py:train:184]
+Epoch: 36 | train_loss: 0.00063, val_loss: 0.00181, lr: 1.24E-06, _patience: 1
+
+INFO 2022-03-08 21:41:52,709 [train.py:train:180]
+Stopping early!
+
+INFO 2022-03-08 21:41:52,968 [train.py:objective:364]
+{
+  "precision": 0.801264880352795,
+  "recall": 0.5684210526315789,
+  "f1": 0.6456253149092719,
+  "num_samples": 210.0
+}
+
+INFO 2022-03-08 21:41:53,134 [train.py:objective:357]
+
+Trial 1:
+
+INFO 2022-03-08 21:41:53,136 [train.py:objective:358]
+{
+  "embedding_dim": 452,
+  "num_filters": 465,
+  "hidden_dim": 210,
+  "dropout_p": 0.5487297264973214,
+  "lr": 7.063187884846424e-05
+}
+
+INFO 2022-03-08 21:41:53,282 [train.py:train:297]
+Parameters: {
+  "seed": 1234,
+  "cuda": true,
+  "shuffle": true,
+  "subset": null,
+  "min_tag_freq": 30,
+  "lower": true,
+  "stem": false,
+  "train_size": 0.7,
+  "char_level": true,
+  "max_filter_size": 10,
+  "batch_size": 128,
+  "embedding_dim": 452,
+  "num_filters": 465,
+  "hidden_dim": 210,
+  "dropout_p": 0.5487297264973214,
+  "lr": 7.063187884846424e-05,
+  "num_epochs": 200,
+  "patience": 10,
+  "threshold": 0.2882239818572998,
+  "num_samples": 1444
+}
+
+INFO 2022-03-08 21:41:54,648 [train.py:train:184]
+Epoch: 1 | train_loss: 0.00643, val_loss: 0.00296, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:41:56,016 [train.py:train:184]
+Epoch: 2 | train_loss: 0.00404, val_loss: 0.00341, lr: 7.06E-05, _patience: 9
+
+INFO 2022-03-08 21:41:57,391 [train.py:train:184]
+Epoch: 3 | train_loss: 0.00406, val_loss: 0.00324, lr: 7.06E-05, _patience: 8
+
+INFO 2022-03-08 21:41:58,762 [train.py:train:184]
+Epoch: 4 | train_loss: 0.00367, val_loss: 0.00285, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:00,136 [train.py:train:184]
+Epoch: 5 | train_loss: 0.00342, val_loss: 0.00265, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:01,506 [train.py:train:184]
+Epoch: 6 | train_loss: 0.00317, val_loss: 0.00261, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:02,877 [train.py:train:184]
+Epoch: 7 | train_loss: 0.00306, val_loss: 0.00256, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:04,248 [train.py:train:184]
+Epoch: 8 | train_loss: 0.00296, val_loss: 0.00252, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:05,621 [train.py:train:184]
+Epoch: 9 | train_loss: 0.00279, val_loss: 0.00247, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:06,991 [train.py:train:184]
+Epoch: 10 | train_loss: 0.00268, val_loss: 0.00241, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:08,366 [train.py:train:184]
+Epoch: 11 | train_loss: 0.00256, val_loss: 0.00236, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:09,739 [train.py:train:184]
+Epoch: 12 | train_loss: 0.00247, val_loss: 0.00233, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:11,109 [train.py:train:184]
+Epoch: 13 | train_loss: 0.00240, val_loss: 0.00227, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:12,488 [train.py:train:184]
+Epoch: 14 | train_loss: 0.00226, val_loss: 0.00223, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:13,860 [train.py:train:184]
+Epoch: 15 | train_loss: 0.00216, val_loss: 0.00221, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:15,233 [train.py:train:184]
+Epoch: 16 | train_loss: 0.00212, val_loss: 0.00216, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:16,610 [train.py:train:184]
+Epoch: 17 | train_loss: 0.00202, val_loss: 0.00212, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:17,986 [train.py:train:184]
+Epoch: 18 | train_loss: 0.00194, val_loss: 0.00209, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:19,369 [train.py:train:184]
+Epoch: 19 | train_loss: 0.00190, val_loss: 0.00205, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:20,749 [train.py:train:184]
+Epoch: 20 | train_loss: 0.00181, val_loss: 0.00204, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:22,136 [train.py:train:184]
+Epoch: 21 | train_loss: 0.00178, val_loss: 0.00202, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:23,522 [train.py:train:184]
+Epoch: 22 | train_loss: 0.00174, val_loss: 0.00197, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:24,910 [train.py:train:184]
+Epoch: 23 | train_loss: 0.00166, val_loss: 0.00197, lr: 7.06E-05, _patience: 9
+
+INFO 2022-03-08 21:42:26,297 [train.py:train:184]
+Epoch: 24 | train_loss: 0.00160, val_loss: 0.00195, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:27,680 [train.py:train:184]
+Epoch: 25 | train_loss: 0.00155, val_loss: 0.00192, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:29,061 [train.py:train:184]
+Epoch: 26 | train_loss: 0.00150, val_loss: 0.00193, lr: 7.06E-05, _patience: 9
+
+INFO 2022-03-08 21:42:30,442 [train.py:train:184]
+Epoch: 27 | train_loss: 0.00144, val_loss: 0.00189, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:31,825 [train.py:train:184]
+Epoch: 28 | train_loss: 0.00137, val_loss: 0.00189, lr: 7.06E-05, _patience: 9
+
+INFO 2022-03-08 21:42:33,206 [train.py:train:184]
+Epoch: 29 | train_loss: 0.00136, val_loss: 0.00186, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:34,588 [train.py:train:184]
+Epoch: 30 | train_loss: 0.00130, val_loss: 0.00187, lr: 7.06E-05, _patience: 9
+
+INFO 2022-03-08 21:42:35,976 [train.py:train:184]
+Epoch: 31 | train_loss: 0.00127, val_loss: 0.00186, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:37,366 [train.py:train:184]
+Epoch: 32 | train_loss: 0.00122, val_loss: 0.00184, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:38,756 [train.py:train:184]
+Epoch: 33 | train_loss: 0.00122, val_loss: 0.00182, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:40,151 [train.py:train:184]
+Epoch: 34 | train_loss: 0.00119, val_loss: 0.00184, lr: 7.06E-05, _patience: 9
+
+INFO 2022-03-08 21:42:41,539 [train.py:train:184]
+Epoch: 35 | train_loss: 0.00110, val_loss: 0.00184, lr: 7.06E-05, _patience: 8
+
+INFO 2022-03-08 21:42:42,931 [train.py:train:184]
+Epoch: 36 | train_loss: 0.00109, val_loss: 0.00181, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:44,321 [train.py:train:184]
+Epoch: 37 | train_loss: 0.00106, val_loss: 0.00181, lr: 7.06E-05, _patience: 9
+
+INFO 2022-03-08 21:42:45,706 [train.py:train:184]
+Epoch: 38 | train_loss: 0.00102, val_loss: 0.00183, lr: 7.06E-05, _patience: 8
+
+INFO 2022-03-08 21:42:47,099 [train.py:train:184]
+Epoch: 39 | train_loss: 0.00097, val_loss: 0.00184, lr: 7.06E-05, _patience: 7
+
+INFO 2022-03-08 21:42:48,496 [train.py:train:184]
+Epoch: 40 | train_loss: 0.00097, val_loss: 0.00178, lr: 7.06E-05, _patience: 10
+
+INFO 2022-03-08 21:42:49,884 [train.py:train:184]
+Epoch: 41 | train_loss: 0.00091, val_loss: 0.00181, lr: 7.06E-05, _patience: 9
+
+INFO 2022-03-08 21:42:51,274 [train.py:train:184]
+Epoch: 42 | train_loss: 0.00093, val_loss: 0.00183, lr: 7.06E-05, _patience: 8
+
+INFO 2022-03-08 21:42:52,667 [train.py:train:184]
+Epoch: 43 | train_loss: 0.00088, val_loss: 0.00178, lr: 7.06E-05, _patience: 7
+
+INFO 2022-03-08 21:42:54,061 [train.py:train:184]
+Epoch: 44 | train_loss: 0.00086, val_loss: 0.00182, lr: 7.06E-05, _patience: 6
+
+INFO 2022-03-08 21:42:55,456 [train.py:train:184]
+Epoch: 45 | train_loss: 0.00085, val_loss: 0.00179, lr: 7.06E-05, _patience: 5
+
+INFO 2022-03-08 21:42:56,849 [train.py:train:184]
+Epoch: 46 | train_loss: 0.00082, val_loss: 0.00181, lr: 3.53E-06, _patience: 4
+
+INFO 2022-03-08 21:42:58,241 [train.py:train:184]
+Epoch: 47 | train_loss: 0.00080, val_loss: 0.00181, lr: 3.53E-06, _patience: 3
+
+INFO 2022-03-08 21:42:59,633 [train.py:train:184]
+Epoch: 48 | train_loss: 0.00081, val_loss: 0.00180, lr: 3.53E-06, _patience: 2
+
+INFO 2022-03-08 21:43:01,026 [train.py:train:184]
+Epoch: 49 | train_loss: 0.00078, val_loss: 0.00179, lr: 3.53E-06, _patience: 1
+
+INFO 2022-03-08 21:43:02,414 [train.py:train:180]
+Stopping early!
+
+INFO 2022-03-08 21:43:04,019 [train.py:objective:364]
+{
+  "precision": 0.7906081287133917,
+  "recall": 0.5894736842105263,
+  "f1": 0.6491353467586953,
+  "num_samples": 210.0
+}
+
+INFO 2022-03-08 21:43:04,038 [train.py:objective:357]
+
+Trial 2:
+
+INFO 2022-03-08 21:43:04,039 [train.py:objective:358]
+{
+  "embedding_dim": 294,
+  "num_filters": 139,
+  "hidden_dim": 504,
+  "dropout_p": 0.5193042956695603,
+  "lr": 8.465395121094603e-05
+}
+
+INFO 2022-03-08 21:43:04,305 [train.py:train:297]
+Parameters: {
+  "seed": 1234,
+  "cuda": true,
+  "shuffle": true,
+  "subset": null,
+  "min_tag_freq": 30,
+  "lower": true,
+  "stem": false,
+  "train_size": 0.7,
+  "char_level": true,
+  "max_filter_size": 10,
+  "batch_size": 128,
+  "embedding_dim": 294,
+  "num_filters": 139,
+  "hidden_dim": 504,
+  "dropout_p": 0.5193042956695603,
+  "lr": 8.465395121094603e-05,
+  "num_epochs": 200,
+  "patience": 10,
+  "threshold": 0.23726452887058258,
+  "num_samples": 1444
+}
+
+INFO 2022-03-08 21:43:04,753 [train.py:train:184]
+Epoch: 1 | train_loss: 0.00659, val_loss: 0.00297, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:05,199 [train.py:train:184]
+Epoch: 2 | train_loss: 0.00317, val_loss: 0.00313, lr: 8.47E-05, _patience: 9
+
+INFO 2022-03-08 21:43:05,645 [train.py:train:184]
+Epoch: 3 | train_loss: 0.00335, val_loss: 0.00319, lr: 8.47E-05, _patience: 8
+
+INFO 2022-03-08 21:43:06,086 [train.py:train:184]
+Epoch: 4 | train_loss: 0.00323, val_loss: 0.00296, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:06,529 [train.py:train:184]
+Epoch: 5 | train_loss: 0.00302, val_loss: 0.00279, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:06,976 [train.py:train:184]
+Epoch: 6 | train_loss: 0.00290, val_loss: 0.00273, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:07,421 [train.py:train:184]
+Epoch: 7 | train_loss: 0.00284, val_loss: 0.00271, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:07,867 [train.py:train:184]
+Epoch: 8 | train_loss: 0.00279, val_loss: 0.00269, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:08,314 [train.py:train:184]
+Epoch: 9 | train_loss: 0.00274, val_loss: 0.00267, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:08,760 [train.py:train:184]
+Epoch: 10 | train_loss: 0.00268, val_loss: 0.00264, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:09,205 [train.py:train:184]
+Epoch: 11 | train_loss: 0.00262, val_loss: 0.00260, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:09,648 [train.py:train:184]
+Epoch: 12 | train_loss: 0.00254, val_loss: 0.00257, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:10,094 [train.py:train:184]
+Epoch: 13 | train_loss: 0.00251, val_loss: 0.00254, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:10,539 [train.py:train:184]
+Epoch: 14 | train_loss: 0.00243, val_loss: 0.00250, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:10,984 [train.py:train:184]
+Epoch: 15 | train_loss: 0.00236, val_loss: 0.00246, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:11,428 [train.py:train:184]
+Epoch: 16 | train_loss: 0.00233, val_loss: 0.00242, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:11,875 [train.py:train:184]
+Epoch: 17 | train_loss: 0.00226, val_loss: 0.00238, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:12,324 [train.py:train:184]
+Epoch: 18 | train_loss: 0.00216, val_loss: 0.00234, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:12,777 [train.py:train:184]
+Epoch: 19 | train_loss: 0.00210, val_loss: 0.00230, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:13,226 [train.py:train:184]
+Epoch: 20 | train_loss: 0.00206, val_loss: 0.00225, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:13,670 [train.py:train:184]
+Epoch: 21 | train_loss: 0.00198, val_loss: 0.00221, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:14,114 [train.py:train:184]
+Epoch: 22 | train_loss: 0.00190, val_loss: 0.00218, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:14,566 [train.py:train:184]
+Epoch: 23 | train_loss: 0.00185, val_loss: 0.00214, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:15,012 [train.py:train:184]
+Epoch: 24 | train_loss: 0.00181, val_loss: 0.00210, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:15,459 [train.py:train:184]
+Epoch: 25 | train_loss: 0.00175, val_loss: 0.00208, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:15,907 [train.py:train:184]
+Epoch: 26 | train_loss: 0.00170, val_loss: 0.00204, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:16,362 [train.py:train:184]
+Epoch: 27 | train_loss: 0.00162, val_loss: 0.00203, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:16,808 [train.py:train:184]
+Epoch: 28 | train_loss: 0.00161, val_loss: 0.00198, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:17,255 [train.py:train:184]
+Epoch: 29 | train_loss: 0.00154, val_loss: 0.00197, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:17,704 [train.py:train:184]
+Epoch: 30 | train_loss: 0.00149, val_loss: 0.00195, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:18,155 [train.py:train:184]
+Epoch: 31 | train_loss: 0.00145, val_loss: 0.00193, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:18,600 [train.py:train:184]
+Epoch: 32 | train_loss: 0.00139, val_loss: 0.00191, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:19,046 [train.py:train:184]
+Epoch: 33 | train_loss: 0.00137, val_loss: 0.00189, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:19,499 [train.py:train:184]
+Epoch: 34 | train_loss: 0.00131, val_loss: 0.00188, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:19,950 [train.py:train:184]
+Epoch: 35 | train_loss: 0.00131, val_loss: 0.00185, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:20,395 [train.py:train:184]
+Epoch: 36 | train_loss: 0.00123, val_loss: 0.00186, lr: 8.47E-05, _patience: 9
+
+INFO 2022-03-08 21:43:20,841 [train.py:train:184]
+Epoch: 37 | train_loss: 0.00123, val_loss: 0.00184, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:21,289 [train.py:train:184]
+Epoch: 38 | train_loss: 0.00117, val_loss: 0.00183, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:21,735 [train.py:train:184]
+Epoch: 39 | train_loss: 0.00116, val_loss: 0.00182, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:22,181 [train.py:train:184]
+Epoch: 40 | train_loss: 0.00113, val_loss: 0.00181, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:22,629 [train.py:train:184]
+Epoch: 41 | train_loss: 0.00109, val_loss: 0.00180, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:23,083 [train.py:train:184]
+Epoch: 42 | train_loss: 0.00105, val_loss: 0.00179, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:23,532 [train.py:train:184]
+Epoch: 43 | train_loss: 0.00104, val_loss: 0.00178, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:23,979 [train.py:train:184]
+Epoch: 44 | train_loss: 0.00100, val_loss: 0.00179, lr: 8.47E-05, _patience: 9
+
+INFO 2022-03-08 21:43:24,426 [train.py:train:184]
+Epoch: 45 | train_loss: 0.00097, val_loss: 0.00177, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:24,869 [train.py:train:184]
+Epoch: 46 | train_loss: 0.00094, val_loss: 0.00179, lr: 8.47E-05, _patience: 9
+
+INFO 2022-03-08 21:43:25,313 [train.py:train:184]
+Epoch: 47 | train_loss: 0.00092, val_loss: 0.00176, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:25,755 [train.py:train:184]
+Epoch: 48 | train_loss: 0.00089, val_loss: 0.00178, lr: 8.47E-05, _patience: 9
+
+INFO 2022-03-08 21:43:26,199 [train.py:train:184]
+Epoch: 49 | train_loss: 0.00089, val_loss: 0.00176, lr: 8.47E-05, _patience: 8
+
+INFO 2022-03-08 21:43:26,647 [train.py:train:184]
+Epoch: 50 | train_loss: 0.00086, val_loss: 0.00176, lr: 8.47E-05, _patience: 7
+
+INFO 2022-03-08 21:43:27,091 [train.py:train:184]
+Epoch: 51 | train_loss: 0.00085, val_loss: 0.00175, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:27,539 [train.py:train:184]
+Epoch: 52 | train_loss: 0.00081, val_loss: 0.00176, lr: 8.47E-05, _patience: 9
+
+INFO 2022-03-08 21:43:27,982 [train.py:train:184]
+Epoch: 53 | train_loss: 0.00079, val_loss: 0.00177, lr: 8.47E-05, _patience: 8
+
+INFO 2022-03-08 21:43:28,427 [train.py:train:184]
+Epoch: 54 | train_loss: 0.00077, val_loss: 0.00174, lr: 8.47E-05, _patience: 10
+
+INFO 2022-03-08 21:43:28,875 [train.py:train:184]
+Epoch: 55 | train_loss: 0.00072, val_loss: 0.00177, lr: 8.47E-05, _patience: 9
+
+INFO 2022-03-08 21:43:29,327 [train.py:train:184]
+Epoch: 56 | train_loss: 0.00073, val_loss: 0.00175, lr: 8.47E-05, _patience: 8
+
+INFO 2022-03-08 21:43:29,774 [train.py:train:184]
+Epoch: 57 | train_loss: 0.00071, val_loss: 0.00176, lr: 8.47E-05, _patience: 7
+
+INFO 2022-03-08 21:43:30,224 [train.py:train:184]
+Epoch: 58 | train_loss: 0.00068, val_loss: 0.00176, lr: 8.47E-05, _patience: 6
+
+INFO 2022-03-08 21:43:30,670 [train.py:train:184]
+Epoch: 59 | train_loss: 0.00067, val_loss: 0.00176, lr: 8.47E-05, _patience: 5
+
+INFO 2022-03-08 21:43:31,116 [train.py:train:184]
+Epoch: 60 | train_loss: 0.00064, val_loss: 0.00177, lr: 4.23E-06, _patience: 4
+
+INFO 2022-03-08 21:43:31,562 [train.py:train:184]
+Epoch: 61 | train_loss: 0.00064, val_loss: 0.00177, lr: 4.23E-06, _patience: 3
+
+INFO 2022-03-08 21:43:32,010 [train.py:train:184]
+Epoch: 62 | train_loss: 0.00062, val_loss: 0.00177, lr: 4.23E-06, _patience: 2
+
+INFO 2022-03-08 21:43:32,457 [train.py:train:184]
+Epoch: 63 | train_loss: 0.00064, val_loss: 0.00176, lr: 4.23E-06, _patience: 1
+
+INFO 2022-03-08 21:43:32,907 [train.py:train:180]
+Stopping early!
+
+INFO 2022-03-08 21:43:33,423 [train.py:objective:364]
+{
+  "precision": 0.7741591023712152,
+  "recall": 0.5705263157894737,
+  "f1": 0.6364015317577035,
+  "num_samples": 210.0
+}
+
+INFO 2022-03-08 21:43:33,472 [train.py:objective:357]
+
+Trial 3:
+
+INFO 2022-03-08 21:43:33,473 [train.py:objective:358]
+{
+  "embedding_dim": 345,
+  "num_filters": 237,
+  "hidden_dim": 311,
+  "dropout_p": 0.7709585164569086,
+  "lr": 0.000224923637677399
+}
+
+INFO 2022-03-08 21:43:33,614 [train.py:train:297]
+Parameters: {
+  "seed": 1234,
+  "cuda": true,
+  "shuffle": true,
+  "subset": null,
+  "min_tag_freq": 30,
+  "lower": true,
+  "stem": false,
+  "train_size": 0.7,
+  "char_level": true,
+  "max_filter_size": 10,
+  "batch_size": 128,
+  "embedding_dim": 345,
+  "num_filters": 237,
+  "hidden_dim": 311,
+  "dropout_p": 0.7709585164569086,
+  "lr": 0.000224923637677399,
+  "num_epochs": 200,
+  "patience": 10,
+  "threshold": 0.2849782705307007,
+  "num_samples": 1444
+}
+
+INFO 2022-03-08 21:43:34,228 [train.py:train:184]
+Epoch: 1 | train_loss: 0.00642, val_loss: 0.00381, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:34,843 [train.py:train:184]
+Epoch: 2 | train_loss: 0.00532, val_loss: 0.00356, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:35,459 [train.py:train:184]
+Epoch: 3 | train_loss: 0.00437, val_loss: 0.00278, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:36,069 [train.py:train:184]
+Epoch: 4 | train_loss: 0.00367, val_loss: 0.00271, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:36,687 [train.py:train:184]
+Epoch: 5 | train_loss: 0.00327, val_loss: 0.00267, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:37,301 [train.py:train:184]
+Epoch: 6 | train_loss: 0.00313, val_loss: 0.00259, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:37,911 [train.py:train:184]
+Epoch: 7 | train_loss: 0.00290, val_loss: 0.00252, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:38,525 [train.py:train:184]
+Epoch: 8 | train_loss: 0.00274, val_loss: 0.00245, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:39,140 [train.py:train:184]
+Epoch: 9 | train_loss: 0.00269, val_loss: 0.00237, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:39,764 [train.py:train:184]
+Epoch: 10 | train_loss: 0.00250, val_loss: 0.00231, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:40,389 [train.py:train:184]
+Epoch: 11 | train_loss: 0.00235, val_loss: 0.00222, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:41,013 [train.py:train:184]
+Epoch: 12 | train_loss: 0.00227, val_loss: 0.00217, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:41,637 [train.py:train:184]
+Epoch: 13 | train_loss: 0.00210, val_loss: 0.00207, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:42,260 [train.py:train:184]
+Epoch: 14 | train_loss: 0.00206, val_loss: 0.00205, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:42,877 [train.py:train:184]
+Epoch: 15 | train_loss: 0.00192, val_loss: 0.00200, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:43,493 [train.py:train:184]
+Epoch: 16 | train_loss: 0.00184, val_loss: 0.00199, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:44,105 [train.py:train:184]
+Epoch: 17 | train_loss: 0.00173, val_loss: 0.00195, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:44,722 [train.py:train:184]
+Epoch: 18 | train_loss: 0.00172, val_loss: 0.00197, lr: 2.25E-04, _patience: 9
+
+INFO 2022-03-08 21:43:45,337 [train.py:train:184]
+Epoch: 19 | train_loss: 0.00161, val_loss: 0.00193, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:45,951 [train.py:train:184]
+Epoch: 20 | train_loss: 0.00156, val_loss: 0.00193, lr: 2.25E-04, _patience: 9
+
+INFO 2022-03-08 21:43:46,562 [train.py:train:184]
+Epoch: 21 | train_loss: 0.00150, val_loss: 0.00194, lr: 2.25E-04, _patience: 8
+
+INFO 2022-03-08 21:43:47,176 [train.py:train:184]
+Epoch: 22 | train_loss: 0.00144, val_loss: 0.00191, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:47,789 [train.py:train:184]
+Epoch: 23 | train_loss: 0.00141, val_loss: 0.00188, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:48,407 [train.py:train:184]
+Epoch: 24 | train_loss: 0.00132, val_loss: 0.00181, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:49,019 [train.py:train:184]
+Epoch: 25 | train_loss: 0.00126, val_loss: 0.00179, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:49,634 [train.py:train:184]
+Epoch: 26 | train_loss: 0.00124, val_loss: 0.00180, lr: 2.25E-04, _patience: 9
+
+INFO 2022-03-08 21:43:50,248 [train.py:train:184]
+Epoch: 27 | train_loss: 0.00120, val_loss: 0.00174, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:50,864 [train.py:train:184]
+Epoch: 28 | train_loss: 0.00110, val_loss: 0.00174, lr: 2.25E-04, _patience: 10
+
+INFO 2022-03-08 21:43:51,482 [train.py:train:184]
+Epoch: 29 | train_loss: 0.00107, val_loss: 0.00178, lr: 2.25E-04, _patience: 9
+
+INFO 2022-03-08 21:43:52,100 [train.py:train:184]
+Epoch: 30 | train_loss: 0.00103, val_loss: 0.00180, lr: 2.25E-04, _patience: 8
+
+INFO 2022-03-08 21:43:52,717 [train.py:train:184]
+Epoch: 31 | train_loss: 0.00099, val_loss: 0.00182, lr: 2.25E-04, _patience: 7
+
+INFO 2022-03-08 21:43:53,335 [train.py:train:184]
+Epoch: 32 | train_loss: 0.00097, val_loss: 0.00189, lr: 2.25E-04, _patience: 6
+
+INFO 2022-03-08 21:43:53,952 [train.py:train:184]
+Epoch: 33 | train_loss: 0.00093, val_loss: 0.00203, lr: 2.25E-04, _patience: 5
+
+INFO 2022-03-08 21:43:54,566 [train.py:train:184]
+Epoch: 34 | train_loss: 0.00092, val_loss: 0.00217, lr: 1.12E-05, _patience: 4
+
+INFO 2022-03-08 21:43:55,181 [train.py:train:184]
+Epoch: 35 | train_loss: 0.00090, val_loss: 0.00194, lr: 1.12E-05, _patience: 3
+
+INFO 2022-03-08 21:43:55,799 [train.py:train:184]
+Epoch: 36 | train_loss: 0.00084, val_loss: 0.00175, lr: 1.12E-05, _patience: 2
+
+INFO 2022-03-08 21:43:56,414 [train.py:train:184]
+Epoch: 37 | train_loss: 0.00079, val_loss: 0.00176, lr: 1.12E-05, _patience: 1
+
+INFO 2022-03-08 21:43:57,027 [train.py:train:180]
+Stopping early!
+
+INFO 2022-03-08 21:43:57,654 [train.py:objective:364]
+{
+  "precision": 0.8276879140342176,
+  "recall": 0.5684210526315789,
+  "f1": 0.6489312002022667,
+  "num_samples": 210.0
+}
+
+INFO 2022-03-08 21:43:57,671 [train.py:objective:357]
+
+Trial 4:
+
+INFO 2022-03-08 21:43:57,672 [train.py:objective:358]
+{
+  "embedding_dim": 428,
+  "num_filters": 163,
+  "hidden_dim": 240,
+  "dropout_p": 0.44352761926131296,
+  "lr": 0.0002062234781587874
+}
+
+INFO 2022-03-08 21:43:57,811 [train.py:train:297]
+Parameters: {
+  "seed": 1234,
+  "cuda": true,
+  "shuffle": true,
+  "subset": null,
+  "min_tag_freq": 30,
+  "lower": true,
+  "stem": false,
+  "train_size": 0.7,
+  "char_level": true,
+  "max_filter_size": 10,
+  "batch_size": 128,
+  "embedding_dim": 428,
+  "num_filters": 163,
+  "hidden_dim": 240,
+  "dropout_p": 0.44352761926131296,
+  "lr": 0.0002062234781587874,
+  "num_epochs": 200,
+  "patience": 10,
+  "threshold": 0.27679896354675293,
+  "num_samples": 1444
+}
+
+INFO 2022-03-08 21:43:58,438 [train.py:train:184]
+Epoch: 1 | train_loss: 0.00551, val_loss: 0.00342, lr: 2.06E-04, _patience: 10
+
+INFO 2022-03-08 21:43:59,061 [train.py:train:184]
+Epoch: 2 | train_loss: 0.00387, val_loss: 0.00351, lr: 2.06E-04, _patience: 9
+
+INFO 2022-03-08 21:43:59,683 [train.py:train:184]
+Epoch: 3 | train_loss: 0.00345, val_loss: 0.00277, lr: 2.06E-04, _patience: 10
+
+INFO 2022-03-08 21:44:00,312 [train.py:train:184]
+Epoch: 4 | train_loss: 0.00307, val_loss: 0.00263, lr: 2.06E-04, _patience: 10
+
+INFO 2022-03-08 21:44:00,941 [train.py:train:184]
+Epoch: 5 | train_loss: 0.00280, val_loss: 0.00254, lr: 2.06E-04, _patience: 10
+
+INFO 2022-03-08 21:44:01,568 [train.py:train:184]
+Epoch: 6 | train_loss: 0.00260, val_loss: 0.00248, lr: 2.06E-04, _patience: 10
+
+INFO 2022-03-08 21:44:02,198 [train.py:train:184]
+Epoch: 7 | train_loss: 0.00242, val_loss: 0.00237, lr: 2.06E-04, _patience: 10
+
+INFO 2022-03-08 21:44:02,829 [train.py:train:184]
+Epoch: 8 | train_loss: 0.00227, val_loss: 0.00227, lr: 2.06E-04, _patience: 10
+
+INFO 2022-03-08 21:44:03,459 [train.py:train:184]
+Epoch: 9 | train_loss: 0.00208, val_loss: 0.00219, lr: 2.06E-04, _patience: 10
+
+INFO 2022-03-08 21:44:04,087 [train.py:train:184]
+Epoch: 10 | train_loss: 0.00196, val_loss: 0.00211, lr: 2.06E-04, _patience: 10
+
+INFO 2022-03-08 21:44:04,707 [train.py:train:184]
+Epoch: 11 | train_loss: 0.00179, val_loss: 0.00205, lr: 2.06E-04, _patience: 10
+
+INFO 2022-03-08 21:44:05,332 [train.py:train:184]
+Epoch: 12 | train_loss: 0.00170, val_loss: 0.00197, lr: 2.06E-04, _patience: 10
+
+INFO 2022-03-08 21:44:05,969 [train.py:train:184]
+Epoch: 13 | train_loss: 0.00156, val_loss: 0.00195, lr: 2.06E-04, _patience: 10
+
+INFO 2022-03-08 21:44:06,594 [train.py:train:184]
+Epoch: 14 | train_loss: 0.00147, val_loss: 0.00190, lr: 2.06E-04, _patience: 10
+
+INFO 2022-03-08 21:44:07,216 [train.py:train:184]
+Epoch: 15 | train_loss: 0.00138, val_loss: 0.00187, lr: 2.06E-04, _patience: 10
+
+INFO 2022-03-08 21:44:07,842 [train.py:train:184]
+Epoch: 16 | train_loss: 0.00132, val_loss: 0.00183, lr: 2.06E-04, _patience: 10
+
+INFO 2022-03-08 21:44:08,475 [train.py:train:184]
+Epoch: 17 | train_loss: 0.00121, val_loss: 0.00187, lr: 2.06E-04, _patience: 9
+
+INFO 2022-03-08 21:44:09,093 [train.py:train:184]
+Epoch: 18 | train_loss: 0.00111, val_loss: 0.00179, lr: 2.06E-04, _patience: 10
+
+INFO 2022-03-08 21:44:09,725 [train.py:train:184]
+Epoch: 19 | train_loss: 0.00105, val_loss: 0.00182, lr: 2.06E-04, _patience: 9
+
+INFO 2022-03-08 21:44:10,351 [train.py:train:184]
+Epoch: 20 | train_loss: 0.00099, val_loss: 0.00178, lr: 2.06E-04, _patience: 10
+
+INFO 2022-03-08 21:44:10,985 [train.py:train:184]
+Epoch: 21 | train_loss: 0.00094, val_loss: 0.00179, lr: 2.06E-04, _patience: 9
+
+INFO 2022-03-08 21:44:11,620 [train.py:train:184]
+Epoch: 22 | train_loss: 0.00088, val_loss: 0.00178, lr: 2.06E-04, _patience: 10
+
+INFO 2022-03-08 21:44:12,232 [train.py:train:184]
+Epoch: 23 | train_loss: 0.00083, val_loss: 0.00176, lr: 2.06E-04, _patience: 10
+
+INFO 2022-03-08 21:44:12,855 [train.py:train:184]
+Epoch: 24 | train_loss: 0.00079, val_loss: 0.00180, lr: 2.06E-04, _patience: 9
+
+INFO 2022-03-08 21:44:13,477 [train.py:train:184]
+Epoch: 25 | train_loss: 0.00072, val_loss: 0.00183, lr: 2.06E-04, _patience: 8
+
+INFO 2022-03-08 21:44:14,106 [train.py:train:184]
+Epoch: 26 | train_loss: 0.00069, val_loss: 0.00179, lr: 2.06E-04, _patience: 7
+
+INFO 2022-03-08 21:44:14,731 [train.py:train:184]
+Epoch: 27 | train_loss: 0.00065, val_loss: 0.00179, lr: 2.06E-04, _patience: 6
+
+INFO 2022-03-08 21:44:15,364 [train.py:train:184]
+Epoch: 28 | train_loss: 0.00061, val_loss: 0.00177, lr: 2.06E-04, _patience: 5
+
+INFO 2022-03-08 21:44:15,994 [train.py:train:184]
+Epoch: 29 | train_loss: 0.00060, val_loss: 0.00184, lr: 1.03E-05, _patience: 4
+
+INFO 2022-03-08 21:44:16,616 [train.py:train:184]
+Epoch: 30 | train_loss: 0.00057, val_loss: 0.00182, lr: 1.03E-05, _patience: 3
+
+INFO 2022-03-08 21:44:17,248 [train.py:train:184]
+Epoch: 31 | train_loss: 0.00055, val_loss: 0.00179, lr: 1.03E-05, _patience: 2
+
+INFO 2022-03-08 21:44:17,869 [train.py:train:184]
+Epoch: 32 | train_loss: 0.00053, val_loss: 0.00178, lr: 1.03E-05, _patience: 1
+
+INFO 2022-03-08 21:44:18,503 [train.py:train:180]
+Stopping early!
+
+INFO 2022-03-08 21:44:19,170 [train.py:objective:364]
+{
+  "precision": 0.7795494288004432,
+  "recall": 0.5978947368421053,
+  "f1": 0.6608950058126041,
+  "num_samples": 210.0
+}
+
+INFO 2022-03-08 21:44:19,189 [train.py:objective:357]
+
+Trial 5:
+
+INFO 2022-03-08 21:44:19,190 [train.py:objective:358]
+{
+  "embedding_dim": 442,
+  "num_filters": 244,
+  "hidden_dim": 238,
+  "dropout_p": 0.7508214037520297,
+  "lr": 0.00040253248723523375
+}
+
+INFO 2022-03-08 21:44:19,353 [train.py:train:297]
+Parameters: {
+  "seed": 1234,
+  "cuda": true,
+  "shuffle": true,
+  "subset": null,
+  "min_tag_freq": 30,
+  "lower": true,
+  "stem": false,
+  "train_size": 0.7,
+  "char_level": true,
+  "max_filter_size": 10,
+  "batch_size": 128,
+  "embedding_dim": 442,
+  "num_filters": 244,
+  "hidden_dim": 238,
+  "dropout_p": 0.7508214037520297,
+  "lr": 0.00040253248723523375,
+  "num_epochs": 200,
+  "patience": 10,
+  "threshold": 0.2629247307777405,
+  "num_samples": 1444
+}
+
+INFO 2022-03-08 21:44:20,109 [train.py:train:184]
+Epoch: 1 | train_loss: 0.00733, val_loss: 0.00451, lr: 4.03E-04, _patience: 10
+
+INFO 2022-03-08 21:44:20,864 [train.py:train:184]
+Epoch: 2 | train_loss: 0.00562, val_loss: 0.00299, lr: 4.03E-04, _patience: 10
+
+INFO 2022-03-08 21:44:21,598 [train.py:train:184]
+Epoch: 3 | train_loss: 0.00392, val_loss: 0.00269, lr: 4.03E-04, _patience: 10
+
+INFO 2022-03-08 21:44:22,343 [train.py:train:184]
+Epoch: 4 | train_loss: 0.00341, val_loss: 0.00263, lr: 4.03E-04, _patience: 10
+
+INFO 2022-03-08 21:44:23,087 [train.py:train:184]
+Epoch: 5 | train_loss: 0.00306, val_loss: 0.00248, lr: 4.03E-04, _patience: 10
+
+INFO 2022-03-08 21:44:23,825 [train.py:train:184]
+Epoch: 6 | train_loss: 0.00278, val_loss: 0.00240, lr: 4.03E-04, _patience: 10
+
+INFO 2022-03-08 21:44:24,574 [train.py:train:184]
+Epoch: 7 | train_loss: 0.00252, val_loss: 0.00226, lr: 4.03E-04, _patience: 10
+
+INFO 2022-03-08 21:44:25,322 [train.py:train:184]
+Epoch: 8 | train_loss: 0.00237, val_loss: 0.00220, lr: 4.03E-04, _patience: 10
+
+INFO 2022-03-08 21:44:26,062 [train.py:train:184]
+Epoch: 9 | train_loss: 0.00219, val_loss: 0.00213, lr: 4.03E-04, _patience: 10
+
+INFO 2022-03-08 21:44:26,807 [train.py:train:184]
+Epoch: 10 | train_loss: 0.00205, val_loss: 0.00203, lr: 4.03E-04, _patience: 10
+
+INFO 2022-03-08 21:44:27,553 [train.py:train:184]
+Epoch: 11 | train_loss: 0.00186, val_loss: 0.00200, lr: 4.03E-04, _patience: 10
+
+INFO 2022-03-08 21:44:28,307 [train.py:train:184]
+Epoch: 12 | train_loss: 0.00176, val_loss: 0.00199, lr: 4.03E-04, _patience: 10
+
+INFO 2022-03-08 21:44:29,055 [train.py:train:184]
+Epoch: 13 | train_loss: 0.00164, val_loss: 0.00207, lr: 4.03E-04, _patience: 9
+
+INFO 2022-03-08 21:44:29,800 [train.py:train:184]
+Epoch: 14 | train_loss: 0.00159, val_loss: 0.00209, lr: 4.03E-04, _patience: 8
+
+INFO 2022-03-08 21:44:30,549 [train.py:train:184]
+Epoch: 15 | train_loss: 0.00150, val_loss: 0.00218, lr: 4.03E-04, _patience: 7
+
+INFO 2022-03-08 21:44:31,299 [train.py:train:184]
+Epoch: 16 | train_loss: 0.00144, val_loss: 0.00216, lr: 4.03E-04, _patience: 6
+
+INFO 2022-03-08 21:44:32,044 [train.py:train:184]
+Epoch: 17 | train_loss: 0.00127, val_loss: 0.00218, lr: 4.03E-04, _patience: 5
+
+INFO 2022-03-08 21:44:32,789 [train.py:train:184]
+Epoch: 18 | train_loss: 0.00125, val_loss: 0.00236, lr: 2.01E-05, _patience: 4
+
+INFO 2022-03-08 21:44:33,536 [train.py:train:184]
+Epoch: 19 | train_loss: 0.00128, val_loss: 0.00201, lr: 2.01E-05, _patience: 3
+
+INFO 2022-03-08 21:44:34,285 [train.py:train:184]
+Epoch: 20 | train_loss: 0.00112, val_loss: 0.00175, lr: 2.01E-05, _patience: 10
+
+INFO 2022-03-08 21:44:35,032 [train.py:train:184]
+Epoch: 21 | train_loss: 0.00111, val_loss: 0.00180, lr: 2.01E-05, _patience: 9
+
+INFO 2022-03-08 21:44:35,778 [train.py:train:184]
+Epoch: 22 | train_loss: 0.00104, val_loss: 0.00189, lr: 2.01E-05, _patience: 8
+
+INFO 2022-03-08 21:44:36,527 [train.py:train:184]
+Epoch: 23 | train_loss: 0.00103, val_loss: 0.00187, lr: 2.01E-05, _patience: 7
+
+INFO 2022-03-08 21:44:37,276 [train.py:train:184]
+Epoch: 24 | train_loss: 0.00101, val_loss: 0.00182, lr: 2.01E-05, _patience: 6
+
+INFO 2022-03-08 21:44:38,026 [train.py:train:184]
+Epoch: 25 | train_loss: 0.00099, val_loss: 0.00181, lr: 2.01E-05, _patience: 5
+
+INFO 2022-03-08 21:44:38,780 [train.py:train:184]
+Epoch: 26 | train_loss: 0.00099, val_loss: 0.00184, lr: 1.01E-06, _patience: 4
+
+INFO 2022-03-08 21:44:39,534 [train.py:train:184]
+Epoch: 27 | train_loss: 0.00104, val_loss: 0.00184, lr: 1.01E-06, _patience: 3
+
+INFO 2022-03-08 21:44:40,288 [train.py:train:184]
+Epoch: 28 | train_loss: 0.00099, val_loss: 0.00184, lr: 1.01E-06, _patience: 2
+
+INFO 2022-03-08 21:44:41,044 [train.py:train:184]
+Epoch: 29 | train_loss: 0.00099, val_loss: 0.00183, lr: 1.01E-06, _patience: 1
+
+INFO 2022-03-08 21:44:41,799 [train.py:train:180]
+Stopping early!
+
+INFO 2022-03-08 21:44:42,637 [train.py:objective:364]
+{
+  "precision": 0.7662441883271806,
+  "recall": 0.5747368421052632,
+  "f1": 0.6242500044275872,
+  "num_samples": 210.0
+}
+
+INFO 2022-03-08 21:44:42,655 [train.py:objective:357]
+
+Trial 6:
+
+INFO 2022-03-08 21:44:42,656 [train.py:objective:358]
+{
+  "embedding_dim": 208,
+  "num_filters": 377,
+  "hidden_dim": 465,
+  "dropout_p": 0.7845982419318781,
+  "lr": 0.0002224128547862579
+}
+
+INFO 2022-03-08 21:44:42,795 [train.py:train:297]
+Parameters: {
+  "seed": 1234,
+  "cuda": true,
+  "shuffle": true,
+  "subset": null,
+  "min_tag_freq": 30,
+  "lower": true,
+  "stem": false,
+  "train_size": 0.7,
+  "char_level": true,
+  "max_filter_size": 10,
+  "batch_size": 128,
+  "embedding_dim": 208,
+  "num_filters": 377,
+  "hidden_dim": 465,
+  "dropout_p": 0.7845982419318781,
+  "lr": 0.0002224128547862579,
+  "num_epochs": 200,
+  "patience": 10,
+  "threshold": 0.24303743243217468,
+  "num_samples": 1444
+}
+
+INFO 2022-03-08 21:44:43,508 [train.py:train:184]
+Epoch: 1 | train_loss: 0.00661, val_loss: 0.00482, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:44,215 [train.py:train:184]
+Epoch: 2 | train_loss: 0.00574, val_loss: 0.00385, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:44,924 [train.py:train:184]
+Epoch: 3 | train_loss: 0.00451, val_loss: 0.00277, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:45,634 [train.py:train:184]
+Epoch: 4 | train_loss: 0.00364, val_loss: 0.00271, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:46,335 [train.py:train:184]
+Epoch: 5 | train_loss: 0.00333, val_loss: 0.00271, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:47,035 [train.py:train:184]
+Epoch: 6 | train_loss: 0.00313, val_loss: 0.00260, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:47,739 [train.py:train:184]
+Epoch: 7 | train_loss: 0.00292, val_loss: 0.00255, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:48,444 [train.py:train:184]
+Epoch: 8 | train_loss: 0.00274, val_loss: 0.00247, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:49,149 [train.py:train:184]
+Epoch: 9 | train_loss: 0.00258, val_loss: 0.00240, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:49,853 [train.py:train:184]
+Epoch: 10 | train_loss: 0.00246, val_loss: 0.00233, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:50,562 [train.py:train:184]
+Epoch: 11 | train_loss: 0.00232, val_loss: 0.00224, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:51,273 [train.py:train:184]
+Epoch: 12 | train_loss: 0.00219, val_loss: 0.00223, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:51,990 [train.py:train:184]
+Epoch: 13 | train_loss: 0.00211, val_loss: 0.00212, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:52,702 [train.py:train:184]
+Epoch: 14 | train_loss: 0.00202, val_loss: 0.00212, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:53,413 [train.py:train:184]
+Epoch: 15 | train_loss: 0.00193, val_loss: 0.00204, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:54,119 [train.py:train:184]
+Epoch: 16 | train_loss: 0.00186, val_loss: 0.00203, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:54,834 [train.py:train:184]
+Epoch: 17 | train_loss: 0.00175, val_loss: 0.00199, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:55,546 [train.py:train:184]
+Epoch: 18 | train_loss: 0.00166, val_loss: 0.00197, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:56,258 [train.py:train:184]
+Epoch: 19 | train_loss: 0.00161, val_loss: 0.00194, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:56,975 [train.py:train:184]
+Epoch: 20 | train_loss: 0.00150, val_loss: 0.00191, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:57,690 [train.py:train:184]
+Epoch: 21 | train_loss: 0.00144, val_loss: 0.00190, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:58,404 [train.py:train:184]
+Epoch: 22 | train_loss: 0.00140, val_loss: 0.00187, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:59,119 [train.py:train:184]
+Epoch: 23 | train_loss: 0.00132, val_loss: 0.00186, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:44:59,831 [train.py:train:184]
+Epoch: 24 | train_loss: 0.00124, val_loss: 0.00181, lr: 2.22E-04, _patience: 10
+
+INFO 2022-03-08 21:45:00,536 [train.py:train:184]
+Epoch: 25 | train_loss: 0.00120, val_loss: 0.00185, lr: 2.22E-04, _patience: 9
+
+INFO 2022-03-08 21:45:01,244 [train.py:train:184]
+Epoch: 26 | train_loss: 0.00117, val_loss: 0.00186, lr: 2.22E-04, _patience: 8
+
+INFO 2022-03-08 21:45:01,951 [train.py:train:184]
+Epoch: 27 | train_loss: 0.00109, val_loss: 0.00191, lr: 2.22E-04, _patience: 7
+
+INFO 2022-03-08 21:45:02,649 [train.py:train:184]
+Epoch: 28 | train_loss: 0.00106, val_loss: 0.00189, lr: 2.22E-04, _patience: 6
+
+INFO 2022-03-08 21:45:03,358 [train.py:train:184]
+Epoch: 29 | train_loss: 0.00103, val_loss: 0.00188, lr: 2.22E-04, _patience: 5
+
+INFO 2022-03-08 21:45:04,060 [train.py:train:184]
+Epoch: 30 | train_loss: 0.00098, val_loss: 0.00187, lr: 1.11E-05, _patience: 4
+
+INFO 2022-03-08 21:45:04,767 [train.py:train:184]
+Epoch: 31 | train_loss: 0.00091, val_loss: 0.00186, lr: 1.11E-05, _patience: 3
+
+INFO 2022-03-08 21:45:05,476 [train.py:train:184]
+Epoch: 32 | train_loss: 0.00089, val_loss: 0.00178, lr: 1.11E-05, _patience: 10
+
+INFO 2022-03-08 21:45:06,188 [train.py:train:184]
+Epoch: 33 | train_loss: 0.00087, val_loss: 0.00175, lr: 1.11E-05, _patience: 10
+
+INFO 2022-03-08 21:45:06,906 [train.py:train:184]
+Epoch: 34 | train_loss: 0.00085, val_loss: 0.00175, lr: 1.11E-05, _patience: 9
+
+INFO 2022-03-08 21:45:07,621 [train.py:train:184]
+Epoch: 35 | train_loss: 0.00085, val_loss: 0.00176, lr: 1.11E-05, _patience: 8
+
+INFO 2022-03-08 21:45:08,337 [train.py:train:184]
+Epoch: 36 | train_loss: 0.00081, val_loss: 0.00177, lr: 1.11E-05, _patience: 7
+
+INFO 2022-03-08 21:45:09,037 [train.py:train:184]
+Epoch: 37 | train_loss: 0.00084, val_loss: 0.00175, lr: 1.11E-05, _patience: 6
+
+INFO 2022-03-08 21:45:09,745 [train.py:train:184]
+Epoch: 38 | train_loss: 0.00080, val_loss: 0.00175, lr: 1.11E-05, _patience: 10
+
+INFO 2022-03-08 21:45:10,451 [train.py:train:184]
+Epoch: 39 | train_loss: 0.00081, val_loss: 0.00175, lr: 1.11E-05, _patience: 9
+
+INFO 2022-03-08 21:45:11,162 [train.py:train:184]
+Epoch: 40 | train_loss: 0.00080, val_loss: 0.00176, lr: 1.11E-05, _patience: 8
+
+INFO 2022-03-08 21:45:11,870 [train.py:train:184]
+Epoch: 41 | train_loss: 0.00079, val_loss: 0.00177, lr: 1.11E-05, _patience: 7
+
+INFO 2022-03-08 21:45:12,582 [train.py:train:184]
+Epoch: 42 | train_loss: 0.00079, val_loss: 0.00176, lr: 1.11E-05, _patience: 6
+
+INFO 2022-03-08 21:45:13,294 [train.py:train:184]
+Epoch: 43 | train_loss: 0.00077, val_loss: 0.00176, lr: 1.11E-05, _patience: 5
+
+INFO 2022-03-08 21:45:14,010 [train.py:train:184]
+Epoch: 44 | train_loss: 0.00080, val_loss: 0.00176, lr: 5.56E-07, _patience: 4
+
+INFO 2022-03-08 21:45:14,725 [train.py:train:184]
+Epoch: 45 | train_loss: 0.00079, val_loss: 0.00176, lr: 5.56E-07, _patience: 3
+
+INFO 2022-03-08 21:45:15,440 [train.py:train:184]
+Epoch: 46 | train_loss: 0.00079, val_loss: 0.00176, lr: 5.56E-07, _patience: 2
+
+INFO 2022-03-08 21:45:16,151 [train.py:train:184]
+Epoch: 47 | train_loss: 0.00079, val_loss: 0.00176, lr: 5.56E-07, _patience: 1
+
+INFO 2022-03-08 21:45:16,861 [train.py:train:180]
+Stopping early!
+
+INFO 2022-03-08 21:45:17,562 [train.py:objective:364]
+{
+  "precision": 0.7577994075936731,
+  "recall": 0.5894736842105263,
+  "f1": 0.6426437262106007,
+  "num_samples": 210.0
+}
+
+INFO 2022-03-08 21:45:17,581 [train.py:objective:357]
+
+Trial 7:
+
+INFO 2022-03-08 21:45:17,582 [train.py:objective:358]
+{
+  "embedding_dim": 370,
+  "num_filters": 201,
+  "hidden_dim": 297,
+  "dropout_p": 0.4916054046698502,
+  "lr": 0.00010139265755803913
+}
+
+INFO 2022-03-08 21:45:17,722 [train.py:train:297]
+Parameters: {
+  "seed": 1234,
+  "cuda": true,
+  "shuffle": true,
+  "subset": null,
+  "min_tag_freq": 30,
+  "lower": true,
+  "stem": false,
+  "train_size": 0.7,
+  "char_level": true,
+  "max_filter_size": 10,
+  "batch_size": 128,
+  "embedding_dim": 370,
+  "num_filters": 201,
+  "hidden_dim": 297,
+  "dropout_p": 0.4916054046698502,
+  "lr": 0.00010139265755803913,
+  "num_epochs": 200,
+  "patience": 10,
+  "threshold": 0.2460125833749771,
+  "num_samples": 1444
+}
+
+INFO 2022-03-08 21:45:18,334 [train.py:train:184]
+Epoch: 1 | train_loss: 0.00685, val_loss: 0.00295, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:18,941 [train.py:train:184]
+Epoch: 2 | train_loss: 0.00351, val_loss: 0.00328, lr: 1.01E-04, _patience: 9
+
+INFO 2022-03-08 21:45:19,552 [train.py:train:184]
+Epoch: 3 | train_loss: 0.00358, val_loss: 0.00321, lr: 1.01E-04, _patience: 8
+
+INFO 2022-03-08 21:45:20,162 [train.py:train:184]
+Epoch: 4 | train_loss: 0.00335, val_loss: 0.00288, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:20,771 [train.py:train:184]
+Epoch: 5 | train_loss: 0.00308, val_loss: 0.00271, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:21,381 [train.py:train:184]
+Epoch: 6 | train_loss: 0.00293, val_loss: 0.00265, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:21,992 [train.py:train:184]
+Epoch: 7 | train_loss: 0.00285, val_loss: 0.00261, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:22,603 [train.py:train:184]
+Epoch: 8 | train_loss: 0.00275, val_loss: 0.00257, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:23,213 [train.py:train:184]
+Epoch: 9 | train_loss: 0.00263, val_loss: 0.00253, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:23,827 [train.py:train:184]
+Epoch: 10 | train_loss: 0.00256, val_loss: 0.00248, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:24,437 [train.py:train:184]
+Epoch: 11 | train_loss: 0.00247, val_loss: 0.00242, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:25,044 [train.py:train:184]
+Epoch: 12 | train_loss: 0.00240, val_loss: 0.00237, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:25,652 [train.py:train:184]
+Epoch: 13 | train_loss: 0.00225, val_loss: 0.00232, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:26,262 [train.py:train:184]
+Epoch: 14 | train_loss: 0.00218, val_loss: 0.00227, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:26,873 [train.py:train:184]
+Epoch: 15 | train_loss: 0.00207, val_loss: 0.00222, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:27,487 [train.py:train:184]
+Epoch: 16 | train_loss: 0.00202, val_loss: 0.00218, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:28,094 [train.py:train:184]
+Epoch: 17 | train_loss: 0.00194, val_loss: 0.00214, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:28,705 [train.py:train:184]
+Epoch: 18 | train_loss: 0.00183, val_loss: 0.00209, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:29,306 [train.py:train:184]
+Epoch: 19 | train_loss: 0.00178, val_loss: 0.00206, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:29,918 [train.py:train:184]
+Epoch: 20 | train_loss: 0.00172, val_loss: 0.00201, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:30,529 [train.py:train:184]
+Epoch: 21 | train_loss: 0.00167, val_loss: 0.00199, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:31,137 [train.py:train:184]
+Epoch: 22 | train_loss: 0.00159, val_loss: 0.00196, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:31,746 [train.py:train:184]
+Epoch: 23 | train_loss: 0.00154, val_loss: 0.00194, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:32,355 [train.py:train:184]
+Epoch: 24 | train_loss: 0.00147, val_loss: 0.00192, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:32,960 [train.py:train:184]
+Epoch: 25 | train_loss: 0.00142, val_loss: 0.00190, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:33,569 [train.py:train:184]
+Epoch: 26 | train_loss: 0.00139, val_loss: 0.00187, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:34,182 [train.py:train:184]
+Epoch: 27 | train_loss: 0.00133, val_loss: 0.00186, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:34,793 [train.py:train:184]
+Epoch: 28 | train_loss: 0.00126, val_loss: 0.00185, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:35,407 [train.py:train:184]
+Epoch: 29 | train_loss: 0.00121, val_loss: 0.00183, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:36,022 [train.py:train:184]
+Epoch: 30 | train_loss: 0.00116, val_loss: 0.00183, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:36,637 [train.py:train:184]
+Epoch: 31 | train_loss: 0.00116, val_loss: 0.00180, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:37,248 [train.py:train:184]
+Epoch: 32 | train_loss: 0.00113, val_loss: 0.00180, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:37,858 [train.py:train:184]
+Epoch: 33 | train_loss: 0.00110, val_loss: 0.00178, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:38,469 [train.py:train:184]
+Epoch: 34 | train_loss: 0.00105, val_loss: 0.00178, lr: 1.01E-04, _patience: 9
+
+INFO 2022-03-08 21:45:39,072 [train.py:train:184]
+Epoch: 35 | train_loss: 0.00099, val_loss: 0.00180, lr: 1.01E-04, _patience: 8
+
+INFO 2022-03-08 21:45:39,683 [train.py:train:184]
+Epoch: 36 | train_loss: 0.00096, val_loss: 0.00177, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:40,297 [train.py:train:184]
+Epoch: 37 | train_loss: 0.00095, val_loss: 0.00178, lr: 1.01E-04, _patience: 9
+
+INFO 2022-03-08 21:45:40,909 [train.py:train:184]
+Epoch: 38 | train_loss: 0.00090, val_loss: 0.00176, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:41,514 [train.py:train:184]
+Epoch: 39 | train_loss: 0.00089, val_loss: 0.00178, lr: 1.01E-04, _patience: 9
+
+INFO 2022-03-08 21:45:42,121 [train.py:train:184]
+Epoch: 40 | train_loss: 0.00084, val_loss: 0.00177, lr: 1.01E-04, _patience: 8
+
+INFO 2022-03-08 21:45:42,728 [train.py:train:184]
+Epoch: 41 | train_loss: 0.00083, val_loss: 0.00175, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:43,337 [train.py:train:184]
+Epoch: 42 | train_loss: 0.00079, val_loss: 0.00178, lr: 1.01E-04, _patience: 9
+
+INFO 2022-03-08 21:45:43,941 [train.py:train:184]
+Epoch: 43 | train_loss: 0.00077, val_loss: 0.00174, lr: 1.01E-04, _patience: 10
+
+INFO 2022-03-08 21:45:44,547 [train.py:train:184]
+Epoch: 44 | train_loss: 0.00073, val_loss: 0.00177, lr: 1.01E-04, _patience: 9
+
+INFO 2022-03-08 21:45:45,161 [train.py:train:184]
+Epoch: 45 | train_loss: 0.00071, val_loss: 0.00175, lr: 1.01E-04, _patience: 8
+
+INFO 2022-03-08 21:45:45,771 [train.py:train:184]
+Epoch: 46 | train_loss: 0.00069, val_loss: 0.00176, lr: 1.01E-04, _patience: 7
+
+INFO 2022-03-08 21:45:46,387 [train.py:train:184]
+Epoch: 47 | train_loss: 0.00068, val_loss: 0.00176, lr: 1.01E-04, _patience: 6
+
+INFO 2022-03-08 21:45:46,998 [train.py:train:184]
+Epoch: 48 | train_loss: 0.00064, val_loss: 0.00180, lr: 1.01E-04, _patience: 5
+
+INFO 2022-03-08 21:45:47,612 [train.py:train:184]
+Epoch: 49 | train_loss: 0.00063, val_loss: 0.00179, lr: 5.07E-06, _patience: 4
+
+INFO 2022-03-08 21:45:48,222 [train.py:train:184]
+Epoch: 50 | train_loss: 0.00062, val_loss: 0.00179, lr: 5.07E-06, _patience: 3
+
+INFO 2022-03-08 21:45:48,835 [train.py:train:184]
+Epoch: 51 | train_loss: 0.00060, val_loss: 0.00178, lr: 5.07E-06, _patience: 2
+
+INFO 2022-03-08 21:45:49,445 [train.py:train:184]
+Epoch: 52 | train_loss: 0.00061, val_loss: 0.00177, lr: 5.07E-06, _patience: 1
+
+INFO 2022-03-08 21:45:50,054 [train.py:train:180]
+Stopping early!
+
+INFO 2022-03-08 21:45:50,765 [train.py:objective:364]
+{
+  "precision": 0.7848084488908956,
+  "recall": 0.5852631578947368,
+  "f1": 0.6530118060718341,
+  "num_samples": 210.0
+}
+
+INFO 2022-03-08 21:45:50,783 [train.py:objective:357]
+
+Trial 8:
+
+INFO 2022-03-08 21:45:50,784 [train.py:objective:358]
+{
+  "embedding_dim": 129,
+  "num_filters": 164,
+  "hidden_dim": 250,
+  "dropout_p": 0.7797931224180982,
+  "lr": 0.00019533496888112523
+}
+
+INFO 2022-03-08 21:45:50,926 [train.py:train:297]
+Parameters: {
+  "seed": 1234,
+  "cuda": true,
+  "shuffle": true,
+  "subset": null,
+  "min_tag_freq": 30,
+  "lower": true,
+  "stem": false,
+  "train_size": 0.7,
+  "char_level": true,
+  "max_filter_size": 10,
+  "batch_size": 128,
+  "embedding_dim": 129,
+  "num_filters": 164,
+  "hidden_dim": 250,
+  "dropout_p": 0.7797931224180982,
+  "lr": 0.00019533496888112523,
+  "num_epochs": 200,
+  "patience": 10,
+  "threshold": 0.2657541036605835,
+  "num_samples": 1444
+}
+
+INFO 2022-03-08 21:45:51,205 [train.py:train:184]
+Epoch: 1 | train_loss: 0.00777, val_loss: 0.00295, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:51,485 [train.py:train:184]
+Epoch: 2 | train_loss: 0.00522, val_loss: 0.00329, lr: 1.95E-04, _patience: 9
+
+INFO 2022-03-08 21:45:51,768 [train.py:train:184]
+Epoch: 3 | train_loss: 0.00491, val_loss: 0.00312, lr: 1.95E-04, _patience: 8
+
+INFO 2022-03-08 21:45:52,051 [train.py:train:184]
+Epoch: 4 | train_loss: 0.00429, val_loss: 0.00286, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:52,332 [train.py:train:184]
+Epoch: 5 | train_loss: 0.00396, val_loss: 0.00280, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:52,616 [train.py:train:184]
+Epoch: 6 | train_loss: 0.00368, val_loss: 0.00279, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:52,898 [train.py:train:184]
+Epoch: 7 | train_loss: 0.00351, val_loss: 0.00277, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:53,177 [train.py:train:184]
+Epoch: 8 | train_loss: 0.00337, val_loss: 0.00275, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:53,457 [train.py:train:184]
+Epoch: 9 | train_loss: 0.00334, val_loss: 0.00272, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:53,736 [train.py:train:184]
+Epoch: 10 | train_loss: 0.00321, val_loss: 0.00272, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:54,016 [train.py:train:184]
+Epoch: 11 | train_loss: 0.00317, val_loss: 0.00270, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:54,291 [train.py:train:184]
+Epoch: 12 | train_loss: 0.00307, val_loss: 0.00266, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:54,571 [train.py:train:184]
+Epoch: 13 | train_loss: 0.00299, val_loss: 0.00264, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:54,853 [train.py:train:184]
+Epoch: 14 | train_loss: 0.00292, val_loss: 0.00261, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:55,134 [train.py:train:184]
+Epoch: 15 | train_loss: 0.00286, val_loss: 0.00258, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:55,416 [train.py:train:184]
+Epoch: 16 | train_loss: 0.00279, val_loss: 0.00254, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:55,698 [train.py:train:184]
+Epoch: 17 | train_loss: 0.00275, val_loss: 0.00251, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:55,978 [train.py:train:184]
+Epoch: 18 | train_loss: 0.00266, val_loss: 0.00250, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:56,261 [train.py:train:184]
+Epoch: 19 | train_loss: 0.00260, val_loss: 0.00244, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:56,544 [train.py:train:184]
+Epoch: 20 | train_loss: 0.00255, val_loss: 0.00242, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:56,826 [train.py:train:184]
+Epoch: 21 | train_loss: 0.00248, val_loss: 0.00238, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:57,107 [train.py:train:184]
+Epoch: 22 | train_loss: 0.00245, val_loss: 0.00235, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:57,390 [train.py:train:184]
+Epoch: 23 | train_loss: 0.00235, val_loss: 0.00231, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:57,673 [train.py:train:184]
+Epoch: 24 | train_loss: 0.00233, val_loss: 0.00227, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:57,960 [train.py:train:184]
+Epoch: 25 | train_loss: 0.00227, val_loss: 0.00227, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:58,238 [train.py:train:184]
+Epoch: 26 | train_loss: 0.00219, val_loss: 0.00223, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:58,522 [train.py:train:184]
+Epoch: 27 | train_loss: 0.00213, val_loss: 0.00218, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:58,801 [train.py:train:184]
+Epoch: 28 | train_loss: 0.00205, val_loss: 0.00220, lr: 1.95E-04, _patience: 9
+
+INFO 2022-03-08 21:45:59,084 [train.py:train:184]
+Epoch: 29 | train_loss: 0.00203, val_loss: 0.00213, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:59,362 [train.py:train:184]
+Epoch: 30 | train_loss: 0.00200, val_loss: 0.00214, lr: 1.95E-04, _patience: 9
+
+INFO 2022-03-08 21:45:59,640 [train.py:train:184]
+Epoch: 31 | train_loss: 0.00196, val_loss: 0.00210, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:45:59,915 [train.py:train:184]
+Epoch: 32 | train_loss: 0.00190, val_loss: 0.00209, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:46:00,188 [train.py:train:184]
+Epoch: 33 | train_loss: 0.00186, val_loss: 0.00208, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:46:00,469 [train.py:train:184]
+Epoch: 34 | train_loss: 0.00180, val_loss: 0.00208, lr: 1.95E-04, _patience: 9
+
+INFO 2022-03-08 21:46:00,746 [train.py:train:184]
+Epoch: 35 | train_loss: 0.00174, val_loss: 0.00208, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:46:01,026 [train.py:train:184]
+Epoch: 36 | train_loss: 0.00175, val_loss: 0.00201, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:46:01,308 [train.py:train:184]
+Epoch: 37 | train_loss: 0.00170, val_loss: 0.00197, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:46:01,591 [train.py:train:184]
+Epoch: 38 | train_loss: 0.00167, val_loss: 0.00199, lr: 1.95E-04, _patience: 9
+
+INFO 2022-03-08 21:46:01,878 [train.py:train:184]
+Epoch: 39 | train_loss: 0.00166, val_loss: 0.00197, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:46:02,156 [train.py:train:184]
+Epoch: 40 | train_loss: 0.00160, val_loss: 0.00197, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:46:02,438 [train.py:train:184]
+Epoch: 41 | train_loss: 0.00155, val_loss: 0.00203, lr: 1.95E-04, _patience: 9
+
+INFO 2022-03-08 21:46:02,722 [train.py:train:184]
+Epoch: 42 | train_loss: 0.00154, val_loss: 0.00199, lr: 1.95E-04, _patience: 8
+
+INFO 2022-03-08 21:46:03,001 [train.py:train:184]
+Epoch: 43 | train_loss: 0.00152, val_loss: 0.00192, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:46:03,283 [train.py:train:184]
+Epoch: 44 | train_loss: 0.00146, val_loss: 0.00199, lr: 1.95E-04, _patience: 9
+
+INFO 2022-03-08 21:46:03,564 [train.py:train:184]
+Epoch: 45 | train_loss: 0.00142, val_loss: 0.00198, lr: 1.95E-04, _patience: 8
+
+INFO 2022-03-08 21:46:03,840 [train.py:train:184]
+Epoch: 46 | train_loss: 0.00140, val_loss: 0.00194, lr: 1.95E-04, _patience: 7
+
+INFO 2022-03-08 21:46:04,119 [train.py:train:184]
+Epoch: 47 | train_loss: 0.00136, val_loss: 0.00189, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:46:04,399 [train.py:train:184]
+Epoch: 48 | train_loss: 0.00136, val_loss: 0.00188, lr: 1.95E-04, _patience: 10
+
+INFO 2022-03-08 21:46:04,681 [train.py:train:184]
+Epoch: 49 | train_loss: 0.00132, val_loss: 0.00191, lr: 1.95E-04, _patience: 9
+
+INFO 2022-03-08 21:46:04,960 [train.py:train:184]
+Epoch: 50 | train_loss: 0.00132, val_loss: 0.00188, lr: 1.95E-04, _patience: 8
+
+INFO 2022-03-08 21:46:05,237 [train.py:train:184]
+Epoch: 51 | train_loss: 0.00124, val_loss: 0.00190, lr: 1.95E-04, _patience: 7
+
+INFO 2022-03-08 21:46:05,519 [train.py:train:184]
+Epoch: 52 | train_loss: 0.00126, val_loss: 0.00191, lr: 1.95E-04, _patience: 6
+
+INFO 2022-03-08 21:46:05,801 [train.py:train:184]
+Epoch: 53 | train_loss: 0.00120, val_loss: 0.00189, lr: 1.95E-04, _patience: 5
+
+INFO 2022-03-08 21:46:06,082 [train.py:train:184]
+Epoch: 54 | train_loss: 0.00118, val_loss: 0.00189, lr: 9.77E-06, _patience: 4
+
+INFO 2022-03-08 21:46:06,363 [train.py:train:184]
+Epoch: 55 | train_loss: 0.00122, val_loss: 0.00187, lr: 9.77E-06, _patience: 10
+
+INFO 2022-03-08 21:46:06,641 [train.py:train:184]
+Epoch: 56 | train_loss: 0.00115, val_loss: 0.00186, lr: 9.77E-06, _patience: 10
+
+INFO 2022-03-08 21:46:06,918 [train.py:train:184]
+Epoch: 57 | train_loss: 0.00113, val_loss: 0.00186, lr: 9.77E-06, _patience: 10
+
+INFO 2022-03-08 21:46:07,199 [train.py:train:184]
+Epoch: 58 | train_loss: 0.00115, val_loss: 0.00185, lr: 9.77E-06, _patience: 10
+
+INFO 2022-03-08 21:46:07,485 [train.py:train:184]
+Epoch: 59 | train_loss: 0.00112, val_loss: 0.00185, lr: 9.77E-06, _patience: 9
+
+INFO 2022-03-08 21:46:07,774 [train.py:train:184]
+Epoch: 60 | train_loss: 0.00115, val_loss: 0.00186, lr: 9.77E-06, _patience: 8
+
+INFO 2022-03-08 21:46:08,058 [train.py:train:184]
+Epoch: 61 | train_loss: 0.00110, val_loss: 0.00185, lr: 9.77E-06, _patience: 10
+
+INFO 2022-03-08 21:46:08,337 [train.py:train:184]
+Epoch: 62 | train_loss: 0.00109, val_loss: 0.00184, lr: 9.77E-06, _patience: 10
+
+INFO 2022-03-08 21:46:08,620 [train.py:train:184]
+Epoch: 63 | train_loss: 0.00112, val_loss: 0.00185, lr: 9.77E-06, _patience: 9
+
+INFO 2022-03-08 21:46:08,905 [train.py:train:184]
+Epoch: 64 | train_loss: 0.00110, val_loss: 0.00185, lr: 9.77E-06, _patience: 8
+
+INFO 2022-03-08 21:46:09,182 [train.py:train:184]
+Epoch: 65 | train_loss: 0.00111, val_loss: 0.00185, lr: 9.77E-06, _patience: 7
+
+INFO 2022-03-08 21:46:09,465 [train.py:train:184]
+Epoch: 66 | train_loss: 0.00112, val_loss: 0.00184, lr: 9.77E-06, _patience: 10
+
+INFO 2022-03-08 21:46:09,748 [train.py:train:184]
+Epoch: 67 | train_loss: 0.00110, val_loss: 0.00184, lr: 9.77E-06, _patience: 9
+
+INFO 2022-03-08 21:46:10,028 [train.py:train:184]
+Epoch: 68 | train_loss: 0.00110, val_loss: 0.00184, lr: 9.77E-06, _patience: 8
+
+INFO 2022-03-08 21:46:10,312 [train.py:train:184]
+Epoch: 69 | train_loss: 0.00111, val_loss: 0.00184, lr: 9.77E-06, _patience: 10
+
+INFO 2022-03-08 21:46:10,591 [train.py:train:184]
+Epoch: 70 | train_loss: 0.00110, val_loss: 0.00183, lr: 9.77E-06, _patience: 10
+
+INFO 2022-03-08 21:46:10,876 [train.py:train:184]
+Epoch: 71 | train_loss: 0.00109, val_loss: 0.00184, lr: 9.77E-06, _patience: 9
+
+INFO 2022-03-08 21:46:11,164 [train.py:train:184]
+Epoch: 72 | train_loss: 0.00108, val_loss: 0.00184, lr: 9.77E-06, _patience: 8
+
+INFO 2022-03-08 21:46:11,445 [train.py:train:184]
+Epoch: 73 | train_loss: 0.00107, val_loss: 0.00185, lr: 9.77E-06, _patience: 7
+
+INFO 2022-03-08 21:46:11,722 [train.py:train:184]
+Epoch: 74 | train_loss: 0.00108, val_loss: 0.00186, lr: 9.77E-06, _patience: 6
+
+INFO 2022-03-08 21:46:12,007 [train.py:train:184]
+Epoch: 75 | train_loss: 0.00110, val_loss: 0.00186, lr: 9.77E-06, _patience: 5
+
+INFO 2022-03-08 21:46:12,288 [train.py:train:184]
+Epoch: 76 | train_loss: 0.00109, val_loss: 0.00186, lr: 4.88E-07, _patience: 4
+
+INFO 2022-03-08 21:46:12,571 [train.py:train:184]
+Epoch: 77 | train_loss: 0.00111, val_loss: 0.00186, lr: 4.88E-07, _patience: 3
+
+INFO 2022-03-08 21:46:12,848 [train.py:train:184]
+Epoch: 78 | train_loss: 0.00110, val_loss: 0.00186, lr: 4.88E-07, _patience: 2
+
+INFO 2022-03-08 21:46:13,134 [train.py:train:184]
+Epoch: 79 | train_loss: 0.00110, val_loss: 0.00185, lr: 4.88E-07, _patience: 1
+
+INFO 2022-03-08 21:46:13,417 [train.py:train:180]
+Stopping early!
+
+INFO 2022-03-08 21:46:13,767 [train.py:objective:364]
+{
+  "precision": 0.7928366433324691,
+  "recall": 0.5473684210526316,
+  "f1": 0.6123885623941778,
+  "num_samples": 210.0
+}
+
+INFO 2022-03-08 21:46:13,786 [train.py:objective:357]
+
+Trial 9:
+
+INFO 2022-03-08 21:46:13,787 [train.py:objective:358]
+{
+  "embedding_dim": 505,
+  "num_filters": 405,
+  "hidden_dim": 395,
+  "dropout_p": 0.5443430096991504,
+  "lr": 6.932497805595957e-05
+}
+
+INFO 2022-03-08 21:46:13,937 [train.py:train:297]
+Parameters: {
+  "seed": 1234,
+  "cuda": true,
+  "shuffle": true,
+  "subset": null,
+  "min_tag_freq": 30,
+  "lower": true,
+  "stem": false,
+  "train_size": 0.7,
+  "char_level": true,
+  "max_filter_size": 10,
+  "batch_size": 128,
+  "embedding_dim": 505,
+  "num_filters": 405,
+  "hidden_dim": 395,
+  "dropout_p": 0.5443430096991504,
+  "lr": 6.932497805595957e-05,
+  "num_epochs": 200,
+  "patience": 10,
+  "threshold": 0.2694243788719177,
+  "num_samples": 1444
+}
+
+INFO 2022-03-08 21:46:15,325 [train.py:train:184]
+Epoch: 1 | train_loss: 0.00618, val_loss: 0.00319, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:16,711 [train.py:train:184]
+Epoch: 2 | train_loss: 0.00380, val_loss: 0.00368, lr: 6.93E-05, _patience: 9
+
+INFO 2022-03-08 21:46:18,097 [train.py:train:184]
+Epoch: 3 | train_loss: 0.00382, val_loss: 0.00324, lr: 6.93E-05, _patience: 8
+
+INFO 2022-03-08 21:46:19,487 [train.py:train:184]
+Epoch: 4 | train_loss: 0.00335, val_loss: 0.00281, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:20,877 [train.py:train:184]
+Epoch: 5 | train_loss: 0.00297, val_loss: 0.00265, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:22,265 [train.py:train:184]
+Epoch: 6 | train_loss: 0.00288, val_loss: 0.00259, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:23,655 [train.py:train:184]
+Epoch: 7 | train_loss: 0.00272, val_loss: 0.00254, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:25,043 [train.py:train:184]
+Epoch: 8 | train_loss: 0.00258, val_loss: 0.00250, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:26,434 [train.py:train:184]
+Epoch: 9 | train_loss: 0.00250, val_loss: 0.00244, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:27,823 [train.py:train:184]
+Epoch: 10 | train_loss: 0.00240, val_loss: 0.00237, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:29,212 [train.py:train:184]
+Epoch: 11 | train_loss: 0.00229, val_loss: 0.00232, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:30,599 [train.py:train:184]
+Epoch: 12 | train_loss: 0.00221, val_loss: 0.00227, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:31,986 [train.py:train:184]
+Epoch: 13 | train_loss: 0.00208, val_loss: 0.00221, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:33,372 [train.py:train:184]
+Epoch: 14 | train_loss: 0.00203, val_loss: 0.00217, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:34,762 [train.py:train:184]
+Epoch: 15 | train_loss: 0.00190, val_loss: 0.00211, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:36,153 [train.py:train:184]
+Epoch: 16 | train_loss: 0.00181, val_loss: 0.00208, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:37,542 [train.py:train:184]
+Epoch: 17 | train_loss: 0.00178, val_loss: 0.00204, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:38,933 [train.py:train:184]
+Epoch: 18 | train_loss: 0.00167, val_loss: 0.00200, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:40,322 [train.py:train:184]
+Epoch: 19 | train_loss: 0.00160, val_loss: 0.00196, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:41,713 [train.py:train:184]
+Epoch: 20 | train_loss: 0.00159, val_loss: 0.00193, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:43,104 [train.py:train:184]
+Epoch: 21 | train_loss: 0.00149, val_loss: 0.00192, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:44,494 [train.py:train:184]
+Epoch: 22 | train_loss: 0.00147, val_loss: 0.00189, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:45,884 [train.py:train:184]
+Epoch: 23 | train_loss: 0.00138, val_loss: 0.00188, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:47,274 [train.py:train:184]
+Epoch: 24 | train_loss: 0.00132, val_loss: 0.00184, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:48,663 [train.py:train:184]
+Epoch: 25 | train_loss: 0.00126, val_loss: 0.00183, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:50,054 [train.py:train:184]
+Epoch: 26 | train_loss: 0.00124, val_loss: 0.00182, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:51,445 [train.py:train:184]
+Epoch: 27 | train_loss: 0.00121, val_loss: 0.00181, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:52,836 [train.py:train:184]
+Epoch: 28 | train_loss: 0.00116, val_loss: 0.00178, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:54,227 [train.py:train:184]
+Epoch: 29 | train_loss: 0.00109, val_loss: 0.00178, lr: 6.93E-05, _patience: 9
+
+INFO 2022-03-08 21:46:55,617 [train.py:train:184]
+Epoch: 30 | train_loss: 0.00105, val_loss: 0.00179, lr: 6.93E-05, _patience: 8
+
+INFO 2022-03-08 21:46:57,003 [train.py:train:184]
+Epoch: 31 | train_loss: 0.00101, val_loss: 0.00176, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:46:58,389 [train.py:train:184]
+Epoch: 32 | train_loss: 0.00099, val_loss: 0.00177, lr: 6.93E-05, _patience: 9
+
+INFO 2022-03-08 21:46:59,779 [train.py:train:184]
+Epoch: 33 | train_loss: 0.00096, val_loss: 0.00176, lr: 6.93E-05, _patience: 8
+
+INFO 2022-03-08 21:47:01,170 [train.py:train:184]
+Epoch: 34 | train_loss: 0.00092, val_loss: 0.00176, lr: 6.93E-05, _patience: 7
+
+INFO 2022-03-08 21:47:02,558 [train.py:train:184]
+Epoch: 35 | train_loss: 0.00089, val_loss: 0.00174, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:47:03,948 [train.py:train:184]
+Epoch: 36 | train_loss: 0.00086, val_loss: 0.00175, lr: 6.93E-05, _patience: 9
+
+INFO 2022-03-08 21:47:05,339 [train.py:train:184]
+Epoch: 37 | train_loss: 0.00083, val_loss: 0.00176, lr: 6.93E-05, _patience: 8
+
+INFO 2022-03-08 21:47:06,726 [train.py:train:184]
+Epoch: 38 | train_loss: 0.00080, val_loss: 0.00174, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:47:08,115 [train.py:train:184]
+Epoch: 39 | train_loss: 0.00078, val_loss: 0.00177, lr: 6.93E-05, _patience: 9
+
+INFO 2022-03-08 21:47:09,505 [train.py:train:184]
+Epoch: 40 | train_loss: 0.00076, val_loss: 0.00172, lr: 6.93E-05, _patience: 10
+
+INFO 2022-03-08 21:47:10,892 [train.py:train:184]
+Epoch: 41 | train_loss: 0.00073, val_loss: 0.00175, lr: 6.93E-05, _patience: 9
+
