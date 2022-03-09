@@ -1,5 +1,5 @@
-
-## Packaging
+## This is only for testing mlops please do not use
+## Packaging with venv
 ```bash
 python3 -m venv venv
 source venv/bin/activate
