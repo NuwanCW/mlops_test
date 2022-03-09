@@ -48,6 +48,7 @@ class TestCNN:
             dropout_p=self.dropout_p,
             num_classes=self.num_classes,
         )
+        model = model.to(torch.device("cpu"))
         for param1, param2 in zip(self.cnn.parameters(), model.parameters()):
             assert not param1.data.ne(param2.data).sum() > 0
         assert self.cnn.filter_sizes == model.filter_sizes

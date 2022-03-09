@@ -1,7 +1,6 @@
 alibi-detect==0.7.2
 airflow-provider-great-expectations==0.0.6
 apache-airflow==2.1.0
-tensorflow==2.5.3
 dvc==2.1.0
 fastapi==0.63.0
 feast==0.10.5
