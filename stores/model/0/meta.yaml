@@ -1,4 +1,0 @@
-artifact_location: file:///home/user1/MLops/mlops_all/mlops_test/stores/model/0
-experiment_id: '0'
-lifecycle_stage: active
-name: best

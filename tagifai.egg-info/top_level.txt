@@ -1,6 +1,0 @@
-app
-config
-docs
-notebooks
-tagifai
-tests
