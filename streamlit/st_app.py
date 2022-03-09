@@ -244,7 +244,11 @@ elif selected_page == "Performance":
     cols = st.columns(3)
     for i, col in enumerate(cols):
         metric = list(performance_diffs.keys())[i]
-        col.metric(metric, f'{performance_diffs[metric]["local"]:.2f}', f'{performance_diffs[metric]["diff"]:.2f}')
+        col.metric(
+            metric,
+            f'{performance_diffs[metric]["local"]:.2f}',
+            f'{performance_diffs[metric]["diff"]:.2f}',
+        )
     with st.expander("Performance"):
         col1, col2 = st.columns(2)
         with col1:
@@ -353,5 +357,3 @@ else:
     st.text("Please select a valid page option from above...")
 
 st.write("---")
-
-
