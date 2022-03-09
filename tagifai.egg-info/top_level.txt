@@ -1,0 +1,9 @@
+app
+config
+data
+docs
+logs
+stores
+streamlit
+tagifai
+tests
